@@ -10,6 +10,7 @@ import java.util.List;
 
 public class DatabaseConnector implements AutoCloseable {
 
+	// 各自の環境に合わせて入力
 	private static final String defaultUrl   = "jdbc:postgresql://localhost:5432/postgres";//SQLのURLとデータ名
 	private static final String defaultUser  = "postgres";
 	private static final String defualtPass  = "postgres";
