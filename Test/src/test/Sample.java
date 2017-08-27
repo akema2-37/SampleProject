@@ -15,6 +15,12 @@ public class Sample {
 
 	}
 
+	Sample(String s, int i) {
+
+		System.out.println(s + "さんの年齢は" + i + "です");
+
+	}
+
 	public void test() {
 
 	}
