@@ -9,7 +9,7 @@ public class Sample {
 	}
 
 	Sample(String s){
-		System.out.println(s);
+		System.out.println(s + "さんこんにちは");
 	}
 
 	public void test(){
